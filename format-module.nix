@@ -23,4 +23,8 @@
       description = "Declare the default attribute to build";
     };
   };
+
+  config.warnings = [
+    "nixos-generators is deprecated, since it has been upstreamed into nixpkgs as of NixOS 25.05. See https://nixos.org/manual/nixos/stable/#sec-image-nixos-rebuild-build-image or nixos-generators README on how it works."
+  ];
 }
